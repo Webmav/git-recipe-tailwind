@@ -4,4 +4,31 @@
     --color-primary-200: rgb(255,239, 239);
 
     --color-accent-500: rgb(233, 182, 182);
+
+    --color-neutral-900: rgb(0, 0, 0);
+
+}
+
+/* footer grid template */
+
+.footer-wrapper {
+    grid-template-areas: 
+    "logo menu form"
+    "social-icons menu copyright"
+    ;
+}
+.logo {
+    grid-area: logo;
+}
+.menu {
+    grid-area: menu;
+}
+.form {
+    grid-area: form;
+}
+.social-icons {
+    grid-area: social-icons;
+}
+.copyright {
+    grid-area: copyright;
 }
