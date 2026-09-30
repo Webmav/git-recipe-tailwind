@@ -10,12 +10,12 @@
     <title>Odin Recipes</title>
     </head>
 
-    <body class="">
+    <body class="text-[1rem] font-normal">
         <nav class="border-2 bg-primary-200 mx-auto">
-            <div class="flex justify-between align-center mx-10 my-2.5">
-                <h1 class="shrink-0 object-contain">Odin Recipes</h1>
+            <div class="flex justify-between align-center mx-10 my-2.5" id="nav-wrapper">
+                <h1 class="text-[1.25rem] font-bold shrink-0 object-contain">Odin Recipes</h1>
 
-                <div class="max-sm:hidden" id="menu-wrapper">
+                <div class="" id="menu-wrapper">
                     <div class="flex gap-5" id="menu-list">
                         <p><a href="#" class="no-underline"> Menu </a></p>
                         <p><a href="#" class="no-underline"> Menu </a></p>
@@ -25,22 +25,22 @@
                     </div>
                 </div>
 
-                <button class=" max-sm:hidden">
+                <button class=" max-m:hidden">
                     <p>Recipes</p>
                 </button>
 
-                <button class=" sm:hidden border-black border-2" id="menu-button">
+                <button class=" m:hidden border-black border-2" id="menu-button">
                     <img id="burger-icon" src="./src/img/burger-icon.svg" alt="">
                     <img id="close-icon" src="./src/img/close-icon.svg" alt="" aria-hidden="true" class="hidden">
                 </button>
             </div>
         </nav>
 
-        <main class="my-15 flex flex-col">
-            <h1 class="mx-auto">Odin Recipes</h1>
+        <main class="my-5 flex flex-col">
+            <h1 class="mx-auto text-[25px] font-bold mbe-5">Odin Recipes</h1>
 
-            <div id="post-wrapper" class="flex max-sm:flex-col">
-                <div id="post" class="mx-5">
+            <div id="post-wrapper" class="flex max-m:flex-col">
+                <div id="post" class="mx-5 max-m:mx-auto max-w-[305px] ">
                     <a href="#" class="no-underline flex flex-col grow-0 shrink-0">
                         <h2 class="justify-center mx-auto">Recipes</h2>
                         <img class="justify-center mx-auto size-75" src="./src/img/image.jpg" alt="Image of recipe">
@@ -57,7 +57,8 @@
                         </h2>
                     </a>
                 </div>
-                <div id="post" class="mx-5">
+            
+                <div id="post" class="mx-5 max-m:mx-auto max-w-[305px] ">
                     <a href="#" class="no-underline flex flex-col grow-0 shrink-0">
                         <h2 class="justify-center mx-auto">Recipes</h2>
                         <img class="justify-center mx-auto size-75" src="./src/img/image.jpg" alt="Image of recipe">
@@ -74,7 +75,8 @@
                         </h2>
                     </a>
                 </div>
-                <div id="post" class="mx-5">
+            
+                <div id="post" class="mx-5 max-m:mx-auto max-w-[305px] ">
                     <a href="#" class="no-underline flex flex-col grow-0 shrink-0">
                         <h2 class="justify-center mx-auto">Recipes</h2>
                         <img class="justify-center mx-auto size-75" src="./src/img/image.jpg" alt="Image of recipe">
@@ -91,7 +93,8 @@
                         </h2>
                     </a>
                 </div>
-                <div id="post" class="mx-5">
+            
+                <div id="post" class="mx-5 max-m:mx-auto max-w-[305px] ">
                     <a href="#" class="no-underline flex flex-col grow-0 shrink-0">
                         <h2 class="justify-center mx-auto">Recipes</h2>
                         <img class="justify-center mx-auto size-75" src="./src/img/image.jpg" alt="Image of recipe">
@@ -108,14 +111,13 @@
                         </h2>
                     </a>
                 </div>
-                  
-
+            
             </div>
         </main>
 
         <footer class="bg-primary-200">
             <div class="footer-wrapper | px-10 py-2.5 grid justify-between border-2">
-                <h1 class="logo | ">Odin Recipes</h1>
+                <h1 class="logo | font-bold">Odin Recipes</h1>
 
                 <div class="social-icons | ">
                     <a href="#" class="no-underline"><img src="./img/burger-icon.svg" alt=""></a>
@@ -134,11 +136,11 @@
                 </div>
 
                 <div class="form | flex gap-4">
-                    <input type="email" name="email" class="w-auto h-auto bg-white border-2 rounded-full px-3 py-.25">
-                    <button class="border-2 rounded-full bg-white px-3 py-.25 max-py-10">Get started</button>
+                    <input type="email" name="email" class="w-auto h-auto bg-accent-500 rounded-full px-3 py-.25">
+                    <button class="rounded-full bg-accent-500 px-3 py-.25 max-py-10">Get started</button>
                 </div>
 
-                <p class="copyright">Copyright. All rights reserved.</p>
+                <p class="copyright | ps-12.5 py-9">Copyright. All rights reserved.</p>
             </div>
         </footer>
     </body>
